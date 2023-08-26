@@ -1,4 +1,4 @@
-                                                  Integrated Analytics with Azure Synapse End to End Analysis
+                                                  Integrated Analytics with Azure Synapse End-to-End Analysis
 
 
 
@@ -12,7 +12,7 @@ The tools that are covered in this project are:
 5. Azure Key vault 
 6. Azure Active Directory (AAD) and
 
-The use case for this project involved building an end-to-end solution by ingesting tables from an on-premise SQL Server database using Azure Data Factory. The data was then stored in Azure Data Lake. We utilized Azure Databricks to transform the raw data into a cleaner format. Subsequently, Azure Synapse Analytics was employed to load the refined data. Finally, Microsoft Power BI was integrated with Azure Synapse Analytics to create an interactive dashboard. For monitoring and governance, Azure Active Directory (AAD) and Azure Key Vault were used.
+The use case for this project involved building an end-to-end solution by ingesting tables from an on-premise SQL Server database using Azure Data Factory. The data was then stored in Azure Data Lake. We utilized Azure Databricks to transform the raw data into a cleaner format. After that, Azure Synapse Analytics was used to load the refined data. Finally, Microsoft Power BI was integrated with Azure Synapse Analytics to create an interactive dashboard. For monitoring and governance, Azure Active Directory (AAD) and Azure Key Vault were used.
 
 Give Permission for Azure Synapse Analytics workspace
 
@@ -24,7 +24,7 @@ Give Permission for Azure Synapse Analytics workspace
 In this project, we covered the following tools:
 Permissions were granted for the Azure Synapse Analytics workspace as follows:
 
-To utilize Azure Synapse Analytics for Integrated Data Analytics in the Azure subscription, an Azure Synapse Analytics Workspace resource was provisioned. Admin-level access on portal.azure.com was required. The directory containing the subscription was identified at the top right corner of the portal with the User ID.
+To utilize Azure Synapse Analytics for Integrated Data Analytics in the Azure subscription, an Azure Synapse Analytics Workspace resource was provisioned. Admin-level access to portal.azure.com was required. The directory containing the subscription was identified at the top right corner of the portal with the User ID.
 
 
 
@@ -33,7 +33,7 @@ To utilize Azure Synapse Analytics for Integrated Data Analytics in the Azure su
 
 The task involved exploring the data analytics workspace using Azure Synapse Analytics. Prior to commencing work, access to the following services was ensured:
 
-Azure Synapse Analytics, formerly known as SQL Data Warehouse, is a cloud-based analytics service offered by Microsoft Azure. It combines enterprise data warehousing and Big Data analytics into a single integrated platform. It's designed to handle both large-scale data warehousing and data integration, allowing organizations to analyze and gain insights from vast amounts of data.
+Azure Synapse Analytics, formerly SQL Data Warehouse, is a cloud-based analytics service offered by Microsoft Azure. It combines enterprise data warehousing and Big Data analytics into a single integrated platform. It's designed to handle large-scale data warehousing and integration, allowing organizations to analyze and gain insights from vast amounts of data.
 
 Data was ingested into Azure Synapse through the Built-in copy task option, with 'run once now' selected. The following steps were completed to ingest data and query the uploaded data:
 
@@ -86,7 +86,7 @@ Category label: Blank
 
 
                                                                       Problem Statement 3:
-An Azure Synapse Analytics Spark pool is a resource within the Azure Synapse Analytics service that provides an Apache Spark-based big data processing environment. It allows you to perform advanced data processing, analytics, and machine learning tasks on large datasets using the power of Spark, a widely-used open-source data processing and analytics engine.                                                                      
+An Azure Synapse Analytics Spark pool is a resource within the Azure Synapse Analytics service that provides an Apache Spark-based big data processing environment. It allows you to perform advanced data processing, analytics, and machine learning tasks on large datasets using the power of Spark, a widely used open-source data processing and analytics engine.                                                                      
 
 Data analysis using the Spark pool was the focus. SQL is commonly used for structured datasets, but languages like Python are effective for data analysis.
 
@@ -105,4 +105,5 @@ The chart view was accessed, and the same commands applied in the SQL pool were 
 
 
 Here is the PPT END TO END PROJECT:
-[Microsoft Azure Project.pdf](https://github.com/jaisbhavana/Azure_End_to_End_Project/files/12445575/Microsoft.Azure.Project.pdf)
+[Microsoft Azure Project.pdf]
+(https://github.com/jaisbhavana/Azure_End_to_End_Project/files/12445575/Microsoft.Azure.Project.pdf)
