@@ -1,6 +1,6 @@
-                                                  Integrated Analytics with Azure Synapse End-to-End Analysis
+Integrated Analytics with Azure Synapse End-to-End Analysis
 
-
+![image](https://github.com/jaisbhavana/-Integrated-Analytics-with-Azure-Synapse-End-to-End-Project/blob/main/Olympic%20data%20flow.png)
 
 
 The tools that are covered in this project are: 
